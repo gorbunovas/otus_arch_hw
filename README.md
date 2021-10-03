@@ -10,5 +10,5 @@
 # Установка
 Требования: установленный аддон ingress-nginx.
 Для запуска необходимо выполнить команды:\
-`helm upgrade --install usr .\charts\hw-user\ -f .\charts\hw-user\values.yaml`\
-`helm upgrade --install auth .\charts\hw-auth\ -f .\charts\hw-auth\values.yaml`
+`helm upgrade --install auth .\charts\hw-auth\ -f .\charts\hw-auth\values.yaml`\
+`helm upgrade --install usr .\charts\hw-user\ -f .\charts\hw-user\values.yaml`
