@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "11895d53-0f5a-4e7b-894c-47b6014c40eb",
+		"_postman_id": "89c2ddab-dfed-4138-837c-2aee00717248",
 		"name": "Homework 5",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -43,8 +43,8 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is 401\", function () {\r",
-							"    pm.response.to.have.status(401);\r",
+							"pm.test(\"Status code is 500 or 401\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([401,500]);\r",
 							"});\r",
 							"\r",
 							"console.log(\"request: \", pm.request);\r",

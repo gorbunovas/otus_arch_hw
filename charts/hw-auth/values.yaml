@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 
-image: nolife1349/auth-service
+image: nolife1349/auth-server
 
 configMapName: auth-svc-properties
 secret: auth-svc-secret
