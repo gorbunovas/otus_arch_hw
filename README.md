@@ -12,3 +12,5 @@
 Для запуска необходимо выполнить команды:\
 `helm upgrade --install auth .\charts\hw-auth\ -f .\charts\hw-auth\values.yaml`\
 `helm upgrade --install usr .\charts\hw-user\ -f .\charts\hw-user\values.yaml`
+
+Далее запустить тесты из корня репозитория Homework 5.postman_collection.json
